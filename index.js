@@ -6,7 +6,7 @@ function produceDrivingRange(range) {
 }
 
 function produceTipCalculator(tipP){
-  return function() {
-
+  return function(fare) {
+    return (1 + tipD) * fare;
   }
 }
