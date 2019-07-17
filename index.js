@@ -4,3 +4,9 @@ function produceDrivingRange(range) {
     return dist <= range ? `within range by ${range - dist}` : `${dist - range} blocks out of range`
   }
 }
+
+function produceTipCalculator(tipP){
+  return function tipCalc() {
+    
+  }
+}
