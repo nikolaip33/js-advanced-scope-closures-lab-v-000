@@ -5,14 +5,15 @@ function produceDrivingRange(range) {
   }
 }
 
-function produceTipCalculator(tip){
+function produceTipCalculator(tip) {
   return function(fare) {
     return tip * fare;
   }
 }
 
-function createDriver(){
-  return function(){
-    
+function createDriver() {
+  let driverId = 0;
+  return class {
+
   }
 }
