@@ -10,3 +10,9 @@ function produceTipCalculator(tip){
     return tip * fare;
   }
 }
+
+function createDriver(){
+  return function(){
+    
+  }
+}
